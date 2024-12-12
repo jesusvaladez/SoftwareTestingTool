@@ -1,0 +1,8 @@
+package org.apache.ambari.server.state;
+public enum HostEventType {
+
+    HOST_REGISTRATION_REQUEST,
+    HOST_STATUS_UPDATES_RECEIVED,
+    HOST_HEARTBEAT_HEALTHY,
+    HOST_HEARTBEAT_LOST,
+    HOST_HEARTBEAT_UNHEALTHY;}
