@@ -125,7 +125,7 @@ public class Assertion extends AbstractProcessor<CtMethod<?>> {
                 } else {
                     testsWithoutAssertion++;
                     assertionState = "FALSE";
-                    //System.out.println(testName + ": Is a test case, but does NOT contain assertion");
+                    // System.out.println(testName + ": Is a test case, but does NOT contain assertion");
                 }
             } else {
                 testsWithNullBody++;
